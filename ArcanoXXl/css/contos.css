@@ -1,0 +1,31 @@
+.gallery-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 6vw;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.text-container>#nome-autor {
+    margin-left: 250px;
+}
+
+.text-container>.block_12 {
+    display: flex;
+}
+
+#footer> img {
+    width: 200px;
+}

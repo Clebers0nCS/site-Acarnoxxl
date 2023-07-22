@@ -1,0 +1,32 @@
+
+    #caixa-texto {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .calibre {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 50px;
+    }
+
+    .calibre h1 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    
+        
+
+    

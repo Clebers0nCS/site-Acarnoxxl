@@ -1,0 +1,110 @@
+.container-autores {
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1000px;
+    margin-top: 300px;
+}
+
+
+.sobre-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.sobre-title:after {
+    content: "";
+    padding: 2px;
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 1rem;
+}
+
+.sobre-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.sobre-list li {
+    list-style-type: none;
+}
+
+.sobre-figure {
+    width: 160px;
+    height: 160px;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.sobre-figure img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.sobre-link:hover .sobre-figure img {
+    filter: none;
+}
+
+.sobre-descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.sobre-descricao:target {
+    display: flex;
+}
+
+.sobre-nomes {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.sobre-nomes:after {
+    content: "";
+    padding: 2px;
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1rem;  
+}
+
+.sobre-descricao-user {
+    margin-top: 3rem;
+    font-size: 18px;
+}
+
+main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: justify; 
+}
+
+.descricao-user {
+    background-color: #1b1b3d;
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
